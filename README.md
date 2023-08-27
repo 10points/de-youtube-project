@@ -6,8 +6,9 @@ create data pipeline
 
 ![This is an image](https://cdn.marketingoops.com/wp-content/uploads/2018/10/youtube-logo.png.webp)
 
-    * **Content**
+ ### Content
 
+    
         This dataset includes several months (and counting) of data on daily trending YouTube videos. Data is included for the US, GB, DE, CA, and FR regions (USA, Great Britain, Germany, Canada, and France, respectively), with up to 200 listed trending videos per day.
 
         EDIT: Now includes data from RU, MX, KR, JP and IN regions (Russia, Mexico, South Korea, Japan and India respectively) over the same time period.

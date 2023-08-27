@@ -18,10 +18,16 @@ create data pipeline
         (Russia, Mexico, South Korea, Japan and India respectively) over the same time period.
 
 
-        Each region’s data is in a separate file. Data includes the video title, channel title, publish time, tags, views, likes and dislikes, description, and comment count.
+        Each region’s data is in a separate file. Data includes the video title, 
+        channel title, publish time, tags, views, likes and dislikes, 
+        description, and comment count.
 
 
-        The data also includes a category_id field, which varies between regions. To retrieve the categories for a specific video, find it in the associated JSON. One such file is included for each of the five regions in the dataset.
+        The data also includes a category_id field, which varies between regions. 
+        To retrieve the categories for a specific video, find it in the associated JSON. 
+        One such file is included for each of the five regions in the dataset.
+
+
 
 
 

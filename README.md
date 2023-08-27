@@ -6,7 +6,7 @@ create data pipeline
 
 ![This is an image](https://cdn.marketingoops.com/wp-content/uploads/2018/10/youtube-logo.png.webp)
 
- *  **Content**
+ *  **About dataset**
 
     
         This dataset includes several months (and counting) of data on daily trending YouTube videos. 

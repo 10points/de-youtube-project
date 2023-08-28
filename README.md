@@ -62,7 +62,7 @@ create data pipeline
 
       4. Join above cleaned and processed files in ETL job
 
-          ![ETL](https://https://github.com/10points/de-youtube-project/blob/main/transform_join_table.jpg)
+          ![ETL](https://github.com/10points/de-youtube-project/blob/main/transform_join_table.jpg)
 
           >> script: [etl_join.py](https://github.com/10points/de-youtube-project/blob/main/etl_join.py) 
 

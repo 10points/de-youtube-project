@@ -44,7 +44,8 @@ create data pipeline
          - Use AWS Lambda and Trigger to automatically preprocess all json files
 
             >> Note: To change data type in schema, we can config in crawled data schema in Glue 
-            and delete all old json data, then re-upload again. The data automatically  is preprocessed and cleaned
+            and delete all old json data, then confirm APPEND in Lambda and re-upload again. 
+            The data automatically  is preprocessed and cleaned
 
          - convert json to parquet (AWS Data Wrangler lib)
 
@@ -54,8 +55,18 @@ create data pipeline
          - save data into new bucket (Load process)
       
       3. Preprocessing on csv file
+         - Create AWS Glue Catalog for the csv files
+         - Transform data and partitioning by the region column and convert csv file to parquet file
 
+            >> [lambda_transform_csv.py](link)
 
+      4. Join above cleaned and processed files in ETL job
+
+          ![ETL](https://...)
+
+      5. Store all files in created databsed
+
+      6. Visualize in Quicksight
 
 
 

@@ -70,6 +70,8 @@ create data pipeline
 
       6. Visualize in Quicksight
 
+          ![visualization](https://github.com/10points/de-youtube-project/blob/main/youtube_trending_visual.jpg)
+
 
 
 

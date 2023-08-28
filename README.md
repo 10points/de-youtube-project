@@ -28,6 +28,19 @@ create data pipeline
         One such file is included for each of the five regions in the dataset.
 
 
+ * **Task**
+    - Build a data lake in Amazon S3
+    - ETL in AWS Glue Spark jobs
+    - SQL using Amazon Athena and Spark SQL
+    - Join semi-structured (json) and structured (csv) data
+    - Visualize data
+
+ * **Method**
+
+
+
+
+
 
 
 

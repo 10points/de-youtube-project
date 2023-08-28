@@ -58,11 +58,13 @@ create data pipeline
          - Create AWS Glue Catalog for the csv files
          - Transform data and partitioning by the region column and convert csv file to parquet file
 
-            >> [lambda_transform_csv.py](link)
+            >> [lambda_transform_csv.py](https://github.com/10points/de-youtube-project/blob/main/lambda_tranform_csv.py)
 
       4. Join above cleaned and processed files in ETL job
 
-          ![ETL](https://...)
+          ![ETL](https://https://github.com/10points/de-youtube-project/blob/main/transform_join_table.jpg)
+
+          >> script: [etl_join.py](https://github.com/10points/de-youtube-project/blob/main/etl_join.py) 
 
       5. Store all files in created databsed
 

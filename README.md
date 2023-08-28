@@ -33,9 +33,12 @@ create data pipeline
     - ETL in AWS Glue Spark jobs
     - SQL using Amazon Athena and Spark SQL
     - Join semi-structured (json) and structured (csv) data
-    - Visualize data
+    - Visualize data on Quicksight
 
  * **Method**
+
+      1. Store data in S3 bucket (Data lake) via AWS CLI in
+         >> aws_s3_cli.txt
 
 
 

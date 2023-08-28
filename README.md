@@ -42,10 +42,14 @@ create data pipeline
 
       2. Create AWS Glue Catalog (Firstly deal with (nested)json file )
          - Use AWS Lambda and Trigger to automatically preprocess all json files
+
+            >> Note: To change data type in schema, we can config in crawled data schema in Glue 
+            and delete all old json data, then re-upload again. The data automatically  is preprocessed and cleaned
+
          - convert json to parquet (AWS Data Wrangler lib)
 
             >> [lambda_func.py](https://github.com/10points/de-youtube-project/blob/main/lambda_func.py)
-            
+
          - extract the metadata out of the data via AWS Glue (Transform process)
          - save data into new bucket (Load process)
       

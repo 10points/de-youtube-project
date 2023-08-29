@@ -38,7 +38,7 @@ create data pipeline
  * **Method**
 
       1. Store data in S3 bucket (Data lake) via AWS CLI in
-         >> [aws_s3_cli.txt](https://github.com/10points/de-youtube-project/blob/main/aws_s3_cli.txt)
+         >> [aws_s3_cli.sh](https://github.com/10points/de-youtube-project/blob/main/aws_s3_cli.txt)
 
       2. Create AWS Glue Catalog (Firstly deal with (nested)json file )
          - Use AWS Lambda and Trigger to automatically preprocess all json files
